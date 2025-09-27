@@ -1,0 +1,13 @@
+{
+  "name": "durable-chat-app",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@tsndr/cloudflare-worker-jwt": "^2.5.6",
+    "partykit": "^0.0.0-2025xxxx"
+  },
+  "scripts": {
+    "dev": "partykit dev",
+    "deploy": "partykit deploy"
+  }
+}

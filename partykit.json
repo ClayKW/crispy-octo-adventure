@@ -1,0 +1,13 @@
+{
+  "name": "durable-chat-app",
+  "main": "server.ts",
+  "parties": {
+    "chat": "ChatRoom"
+  },
+  "vars": {
+    "JWT_SECRET": "replace-with-strong-secret"
+  },
+  "r2": {
+    "UPLOADS_BUCKET": {}
+  }
+}
